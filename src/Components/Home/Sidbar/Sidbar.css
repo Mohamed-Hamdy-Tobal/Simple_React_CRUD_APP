@@ -1,0 +1,7 @@
+main .navs {
+    gap: 18px !important;
+    margin-top: 15px;
+}
+.top {
+    color: red;
+}

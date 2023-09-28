@@ -1,0 +1,54 @@
+header {
+    background-color: rgb(33,37,41)!important;
+    box-shadow: 0px 0px 15px 2px #494747a1;
+    z-index: 10;
+    position: relative;
+}
+header .logo {
+    color: #fff;
+    font-weight: bold;
+    font-size: 28px;
+}
+header .link {
+    color: rgba(255, 255, 255, 0.8);
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+header .link:hover {
+    color: #fff;
+    font-weight: bold;
+}
+header .logo:hover {
+    color: #fff;
+}
+header .nav-item {
+    width: 70px;
+    text-align: center;
+}
+header .nav-link.active {
+    color: #ffdd8d !important;
+    font-weight: bold !important;
+}
+
+header .the-toggler {
+    border-color: #fff;
+    border-width: 3px;
+    padding: 2px 8px !important;
+}
+header .the-toggler:focus {
+    box-shadow: 0 0 0 0 !important;
+}
+header .toggler-span {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: #fff;
+    margin: 0 0 5px 0;
+    border-radius: 7px;
+}
+header .toggler-span:first-child {
+    margin-top: 5px;
+}
